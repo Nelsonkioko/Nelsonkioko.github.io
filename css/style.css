@@ -1,19 +1,22 @@
-.body {
+.middle {
   background-image: url("images/southafrica.jpg");
   background-size: cover;
 
 }
 .header {
-  background-color: #99ffcc;
+  background-color: #9bf442;
 
 }
 img {
 border-radius: 50%;
-height: 250px;
+height: 290px;
 width: 270px;
 float: left;
-padding-right: 50px;
+padding-right: 30px;
 
+}
+h1  {
+  font-family: monospace;
 }
 h2  {
   text-align: center;
@@ -22,4 +25,7 @@ h2  {
 h3  {
   text-decoration: overline;
     font-family: monospace;
+}
+.middle h1,ul {
+  color: #41d6f4;
 }

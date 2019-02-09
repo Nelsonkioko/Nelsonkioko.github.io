@@ -1,0 +1,25 @@
+.body {
+  background-image: url("images/southafrica.jpg");
+  background-size: cover;
+
+}
+.header {
+  background-color: #99ffcc;
+
+}
+img {
+border-radius: 50%;
+height: 250px;
+width: 270px;
+float: left;
+padding-right: 50px;
+
+}
+h2  {
+  text-align: center;
+  font-family: fantasy;
+}
+h3  {
+  text-decoration: overline;
+    font-family: monospace;
+}

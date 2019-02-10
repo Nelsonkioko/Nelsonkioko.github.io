@@ -1,10 +1,13 @@
 .middle {
   background-image: url("images/nelson3.jpeg");
   background-size: cover;
-
+  border-top: 0px;
 }
 .header {
   background-color: olive;
+}
+.header h3,p {
+  font-size: 120;
 }
 .footer {
   background-color:olive;
@@ -14,11 +17,11 @@
   width: 5%;
 }
 img {
-border-radius: 50%;
-height: 320px;
+border-radius: 30%;
+height: 290px;
 width: 270px;
 float: left;
-padding-right: 30px;
+padding-right: 20px;
 }
 h1  {
   font-family: monospace;
@@ -32,8 +35,13 @@ h3  {
   text-decoration: overline;
     font-family: monospace;
 }
-.middle h1,ul {
+.middle h1,ul,h2 {
   color: #fff;
+  font-family: monospace;
+  font-size: 160%;
+  font-weight: bold;
+  list-style-type: none;
+
 }
 .middle a  {
   background-color: #333;
@@ -42,12 +50,25 @@ h3  {
 .middle a:hover {
     background-color: #111;
 }
-ul  {
-  font-size: 160%;
-  font-weight: bold;
-  font-family: monospace;
-  list-style-type: none;
-}
 .middle {
   text-align: center;
+}
+#about {
+  text-align: center;
+  font-size: 250%;
+  font-family: monospace;
+}
+.header {
+
+  padding-bottom: 30px;
+
+}
+.middle {
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer {
+
+  padding-top: 30px;
 }

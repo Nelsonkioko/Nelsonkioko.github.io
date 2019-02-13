@@ -5,6 +5,7 @@
 This is my resume
 ## Setup/Installation Requirements
 * atom
+* Chrome
 
 
 ## Technologies Used
